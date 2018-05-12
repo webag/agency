@@ -39,6 +39,7 @@ $(function () {
 				setTimeout(function () {
 					self.removeClass('error');
 				}, 1500);
+				form.find('.error').eq(0).focus();
 			}
 		});
 
@@ -50,3 +51,19 @@ $(function () {
 /***********************
  отправка формы в php END
  ***********************/
+
+
+/***********************
+ Прокрутка к секциям BEGIN
+***********************/
+$(function () {
+	$('.scrollto').on('click', function () {
+		var elementClick = $(this).attr("href");
+		var destination = $(elementClick).offset().top;
+		$('html,body').stop().animate({scrollTop: destination}, 1000);
+		return false;
+	});
+});
+/***********************
+ Прокрутка к секциям END
+***********************/

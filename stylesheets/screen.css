@@ -568,7 +568,7 @@ header .btns .btn-blue:active {
 	position: relative;
 	overflow-x: hidden;
 	text-align: center;
-	padding: 40px 0;
+	padding: 80px 0;
 	color: #FFF;
 }
 .signupbar:before {
@@ -853,7 +853,7 @@ header .btns .btn-blue:active {
 }
 
 .signup form .error{
-	animation: errorShake 0.2s 4,errorShakeColor 1.5s 1;
+	animation: errorShake 0.2s 4;
 	/* background: rgb(248, 230, 230) !important; */
 }
 
@@ -862,22 +862,10 @@ header .btns .btn-blue:active {
 		transform: translate3d(0,0,0);
 	}
 	50%{
-		transform: translate3d(0,-4px,0);
+		transform: translate3d(-4px,0,0);
 	}
 	100%{
-		transform: translate3d(0,4px,0);
-	}
-}
-
-@keyframes errorShakeColor{
-	0%{
-		background: rgb(255, 255, 255)
-	}
-	50%{
-		background: rgb(248, 230, 230)
-	}
-	100%{
-		background: rgb(255, 255, 255)
+		transform: translate3d(4px,0,0);
 	}
 }
 
@@ -1233,11 +1221,15 @@ footer .line2 {
 }
 footer .line2 .copyright {
 	display: inline-block;
+	vertical-align: top;
+	max-width: 50%;
+	line-height: 1.2;
 }
 footer .social_btns {
+	display: inline-block;
+	vertical-align: top;
 	float: right;
 	width: 125px;
-	margin-top: 5px;
 }
 footer .social_btns ul li {
 	display: block;
@@ -1322,6 +1314,9 @@ footer .logo {
 	}
 
 	/*****************/
+	#header{
+		position: relative;
+	}
 	header .logo {
 		margin-top: 28px;
 	}
@@ -1410,7 +1405,10 @@ footer .logo {
 
 	/*****************/
 	.signupbar{
-		font-size: 14px;
+		font-size: 16px;
+	}
+	.signupbar .in{
+		padding: 0 20px;
 	}
 	.signupbar:before {
 		margin-right: 0;
