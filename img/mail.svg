@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 15">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>mail</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <path class="cls-1" d="M10,8.09,0,0H20L10,8.09Zm0,2.15L0,2.13V13.75A1.25,1.25,0,0,0,1.25,15h17.5A1.25,1.25,0,0,0,20,13.75V2.13l-10,8.1Z"/>
+    </g>
+  </g>
+</svg>

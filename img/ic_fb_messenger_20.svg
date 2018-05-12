@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_fb_messenger_20</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-504.000000, -289.000000)" fill="#FFFFFF">
+            <g id="Group-2" transform="translate(504.000000, 289.000000)">
+                <path d="M10,1 C5.02975,1 1,4.73125 1,9.33325 C1,11.956 2.30875,14.29525 4.354,15.82225 L4.354,19 L7.4185,17.3185 C8.236,17.54425 9.103,17.6665 10,17.6665 C14.97025,17.6665 19,13.936 19,9.33325 C19,4.73125 14.97025,1 10,1 Z M10.89475,12.22225 L8.60275,9.778 L4.1305,12.22225 L9.04975,7 L11.39725,9.44425 L15.814,7 L10.89475,12.22225 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
