@@ -158,7 +158,7 @@ header .logo {
 	margin-top: 24px;
 }
 
-.svg header .logo {
+header .logo {
 	background-image: url("../img/logo.svg");
 	background-position: 0 0;
 	background-size: 179px 50px;
@@ -1296,7 +1296,7 @@ footer .social_btns ul li a {
 	background-position: -20px 0;
 }
 
-.svg footer .logo {
+footer .logo {
 	background-image: url("../img/logo_w.svg");
 	background-size: 180px 50px;
 }
