@@ -50,6 +50,7 @@ $(function () {
 				type: "POST",
 				dataType: "xml",
 				crossDomain : true,
+				processData : false,
 				url: "https://docs.google.com/forms/d/e/1FAIpQLSe_C0BOlJGm7gJOv6fPxgTt5IZJRKC_gYkvawj10nvS2luh7Q/formResponse",
 				data: form_data,
 				statusCode: { // после того как пришел ответ от сервера
