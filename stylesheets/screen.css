@@ -1297,6 +1297,12 @@ footer .logo {
 	display: none;
 }
 
+.thanks{
+	text-align: center;
+	font-size: 16px;
+	padding-bottom: 10px;
+}
+
 @media only screen and (max-width: 766px) {
 	body {
 		min-width: 320px;
@@ -1813,6 +1819,10 @@ footer .logo {
 		margin-top: -108px;
 		width: 129px;
 		height: 216px;
+	}
+
+	.thanks{
+		padding-bottom: 0;
 	}
 
 	/*****************/

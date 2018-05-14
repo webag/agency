@@ -55,10 +55,10 @@ $(function () {
 				data: form_data,
 				statusCode: { // после того как пришел ответ от сервера
 					0: function (){ // это успешный случай
-						form.html('<h4>Спасибо!</h4><p>Форма отправлена блаблабла</p>'); // сунем в форму сообщение что все ок
+						form.html('<p class="thanks">We will contact you soon. Thanks!</p>'); // сунем в форму сообщение что все ок
 					},
 					200: function (){ // это тоже успешный случай
-						form.html('<h4>Спасибо!</h4><p>Форма отправлена блаблабла</p>'); // сунем в форму сообщение что все ок
+						form.html('<p class="thanks">We will contact you soon. Thanks!</p>'); // сунем в форму сообщение что все ок
 					}
 				}
 			});
