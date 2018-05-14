@@ -557,7 +557,7 @@ header .btns .btn-blue:active {
 	background: rgba(0,0,0,0.5);
 }
 
-.svg .watchvideobtn:before {
+.mainimg .watchvideobtn:before {
 	background-image: url("../img/ic_play_20.svg");
 	background-size: 20px 20px;
 	background-position: 0 0;
@@ -1248,32 +1248,32 @@ footer .social_btns ul li a {
 	height: 20px;
 }
 
-.svg .facebook a {
+.facebook a {
 	background-image: url("../img/ic_facebook.svg");
 	background-size: 40px 20px;
 	background-position: 0 0;
 }
-.svg .facebook a:hover {
+.facebook a:hover {
 	background-image: url("../img/ic_facebook.svg");
 	background-size: 40px 20px;
 	background-position: -20px 0;
 }
-.svg .instagram a {
+.instagram a {
 	background-image: url("../img/ic_insta.svg");
 	background-size: 40px 20px;
 	background-position: 0 0;
 }
-.svg .instagram a:hover {
+.instagram a:hover {
 	background-image: url("../img/ic_insta.svg");
 	background-size: 40px 20px;
 	background-position: -20px 0;
 }
-.svg .twitter a {
+.twitter a {
 	background-image: url("../img/ic_twitter.svg");
 	background-size: 40px 20px;
 	background-position: 0 0;
 }
-.svg .twitter a:hover {
+.twitter a:hover {
 	background-image: url("../img/ic_twitter.svg");
 	background-size: 40px 20px;
 	background-position: -20px 0;

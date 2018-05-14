@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_play_20</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Design-Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="D.-For-Users" transform="translate(-643.000000, -547.000000)" fill="#FFFFFF">
+            <g id="Header-banner" transform="translate(0.000000, 100.000000)">
+                <g id="Group-2" transform="translate(428.000000, 158.000000)">
+                    <g id="Group" transform="translate(178.000000, 273.000000)">
+                        <g id="Group-11" transform="translate(37.000000, 16.000000)">
+                            <path d="M15.901106,9.00026243 C16.8147577,9.61832088 16.8076202,10.6252199 15.901106,11.2384501 L6.65431262,17.4936339 C5.74066099,18.1116923 5,17.7233634 5,16.6141813 L5,3.62453125 C5,2.52076453 5.7477985,2.1318485 6.65431262,2.74507864 L15.901106,9.00026243 Z" id="Triangle"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
