@@ -43,20 +43,23 @@ $(function () {
 			}
 		});
 
-		var form_data = new FormData(this);
+		var form_data = form.serialize();
 
 		if (send === true) {
 			$.ajax({
 				type: "POST",
-				async: true,
+				dataType: "xml",
+				crossDomain : true,
 				url: "https://docs.google.com/forms/d/e/1FAIpQLSe_C0BOlJGm7gJOv6fPxgTt5IZJRKC_gYkvawj10nvS2luh7Q/formResponse",
-				cache: false,
-				contentType: false,
-				processData: false,
 				data: form_data,
-				success: (function (result) {
-					alert('Форма отправлена');
-				})
+				statusCode: { // после того как пришел ответ от сервера
+					0: function (){ // это успешный случай
+						form.html('<h4>Спасибо!</h4><p>Форма отправлена блаблабла</p>'); // сунем в форму сообщение что все ок
+					},
+					200: function (){ // это тоже успешный случай
+						form.html('<h4>Спасибо!</h4><p>Форма отправлена блаблабла</p>'); // сунем в форму сообщение что все ок
+					}
+				}
 			});
 		}
 	});
