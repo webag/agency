@@ -775,6 +775,7 @@ header .btns .btn-blue:active {
 	font-size: 16px;
 	line-height: 19px;
 	font-weight: 600;
+	font-family: inherit;
 	display: inline-block;
 	text-decoration: none;
 	margin: 3px auto 0;
@@ -1222,14 +1223,13 @@ footer .line2 {
 footer .line2 .copyright {
 	display: inline-block;
 	vertical-align: top;
-	max-width: 50%;
+	max-width: 65%;
 	line-height: 1.2;
 }
 footer .social_btns {
 	display: inline-block;
 	vertical-align: top;
 	float: right;
-	width: 125px;
 }
 footer .social_btns ul li {
 	display: block;
@@ -1485,8 +1485,8 @@ footer .logo {
 		height: 200px;
 	}
 	.blue_section .text h3 {
-		font-size: 32px;
-		line-height: 39px;
+		font-size: 28px;
+		line-height: 1.2;
 		padding: 0 20px;
 	}
 	.blue_section td {
@@ -1565,6 +1565,10 @@ footer .logo {
 	.review_blocks .block {
 		width: 100%;
 		margin-bottom: 50px;
+	}
+	.review_blocks .block .title{
+		font-size: 24px;
+		line-height: 1.2;
 	}
 	.review_blocks .row-3 .block {
 		margin-right: 0;

@@ -43,8 +43,21 @@ $(function () {
 			}
 		});
 
+		var form_data = new FormData(this);
+
 		if (send === true) {
-			//Здесь может быть аякс запрос
+			$.ajax({
+				type: "POST",
+				async: true,
+				url: "https://docs.google.com/forms/d/e/1FAIpQLSe_C0BOlJGm7gJOv6fPxgTt5IZJRKC_gYkvawj10nvS2luh7Q/formResponse",
+				cache: false,
+				contentType: false,
+				processData: false,
+				data: form_data,
+				success: (function (result) {
+					alert('Форма отправлена');
+				})
+			});
 		}
 	});
 });
