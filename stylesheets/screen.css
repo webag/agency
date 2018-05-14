@@ -761,6 +761,7 @@ header .btns .btn-blue:active {
 	line-height: 19px;
 	box-shadow: none;
 	transition: all 0.2s ease;
+	-webkit-appearance: none;
 }
 .signup form input[type=text]:focus, .signup form input[type=email]:focus, .signup form input[type=password]:focus {
 	outline: none;
